@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Extra
+mt-collatz
+Locked*
+Unlocked*
+*.csv
+*.vscode
