@@ -95,7 +95,9 @@ void collatz_worker(int N) {
 }
 
 /**
- * Entry point of the multi-threaded Collatz sequence computation program.
+ * Entry point of the program. Tracks the start and end times of the program execution
+ * and calculates the total elapsed time. Writes histogram data to stdout and
+ * elapsed time data to stderr.
  * 
  * @param argc The number of command-line arguments.
  * @param argv The array of command-line argument strings.
