@@ -8,6 +8,6 @@ do
     for i in {1..10}
     do
         echo "[nolock] Running with $T threads (run $i)..."
-        ./mt-collatz $N $T -nolock >> threads-nolock.csv 2>> threads-nolock-time.csv
+        ./mt-collatz $N $T -nolock >> ${i}threads-nolock.csv 2>> ${i}threads-nolock-time.csv
     done
 done
