@@ -2,7 +2,7 @@
 CXX = g++
 
 # Compiler flags
-CXXFLAGS = -g -Wall -std=c++17
+CXXFLAGS = -g -Wall -std=c++17 -lpthread
 
 # Ouput file
 TARGET = mt-collatz
